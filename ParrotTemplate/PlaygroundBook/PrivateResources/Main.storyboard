@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4Oe-Bu-gtj">
+    <device id="ipad9_7" orientation="landscape" layout="splitview1_2" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="llE-c1-iIG">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4Oe-Bu-gtj" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="W9D-H1-QXu"/>
+                        <viewControllerLayoutGuide type="bottom" id="2el-7m-C3G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WnL-t2-6wa">
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ko-aY-NXZ" userLabel="Content">
+                                <rect key="frame" x="0.0" y="0.0" width="507" height="768"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chap1back4" translatesAutoresizingMaskIntoConstraints="NO" id="mf3-Mu-8eb">
+                                        <rect key="frame" x="0.0" y="122" width="507" height="646"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chap1back3" translatesAutoresizingMaskIntoConstraints="NO" id="o3B-dv-ReE">
+                                        <rect key="frame" x="0.0" y="100" width="507" height="668"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chap1back2" translatesAutoresizingMaskIntoConstraints="NO" id="Tp3-Tp-v6Q">
+                                        <rect key="frame" x="0.0" y="118" width="507" height="650"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="chap1back1" translatesAutoresizingMaskIntoConstraints="NO" id="BjS-lu-3TJ">
+                                        <rect key="frame" x="0.0" y="144" width="507" height="624"/>
+                                    </imageView>
+                                    <imageView hidden="YES" autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="chap1shadow" translatesAutoresizingMaskIntoConstraints="NO" id="CFX-Bz-hAG">
+                                        <rect key="frame" x="102" y="456" width="303" height="25"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mambo_single" translatesAutoresizingMaskIntoConstraints="NO" id="iGq-yB-tAy">
+                                        <rect key="frame" x="63" y="282" width="380" height="223"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <accessibility key="accessibilityConfiguration" label="Drone">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
+                                    </imageView>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tpe-ci-pvv" userLabel="Op">
+                                        <rect key="frame" x="0.0" y="336" width="507" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="mf3-Mu-8eb" secondAttribute="bottom" id="4f5-Zd-K0I"/>
+                                    <constraint firstItem="o3B-dv-ReE" firstAttribute="top" secondItem="0Ko-aY-NXZ" secondAttribute="top" constant="100" id="5D0-ER-rK8"/>
+                                    <constraint firstItem="Tp3-Tp-v6Q" firstAttribute="leading" secondItem="0Ko-aY-NXZ" secondAttribute="leading" id="6bi-dJ-6o3"/>
+                                    <constraint firstItem="BjS-lu-3TJ" firstAttribute="top" secondItem="0Ko-aY-NXZ" secondAttribute="top" constant="144" id="Joj-NM-vkV"/>
+                                    <constraint firstAttribute="trailing" secondItem="mf3-Mu-8eb" secondAttribute="trailing" id="TiI-Fr-fT7"/>
+                                    <constraint firstItem="Tp3-Tp-v6Q" firstAttribute="top" secondItem="0Ko-aY-NXZ" secondAttribute="top" constant="118" id="V2k-JA-hcN"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tp3-Tp-v6Q" secondAttribute="bottom" id="Xcp-ZJ-fad"/>
+                                    <constraint firstAttribute="bottom" secondItem="BjS-lu-3TJ" secondAttribute="bottom" id="aU3-DN-Y1h"/>
+                                    <constraint firstAttribute="trailing" secondItem="o3B-dv-ReE" secondAttribute="trailing" id="arv-1T-OBM"/>
+                                    <constraint firstAttribute="bottom" secondItem="o3B-dv-ReE" secondAttribute="bottom" id="hZx-tE-53D"/>
+                                    <constraint firstAttribute="trailing" secondItem="Tp3-Tp-v6Q" secondAttribute="trailing" id="jrI-uA-eOC"/>
+                                    <constraint firstAttribute="trailing" secondItem="BjS-lu-3TJ" secondAttribute="trailing" id="kNJ-Zh-nZj"/>
+                                    <constraint firstItem="BjS-lu-3TJ" firstAttribute="leading" secondItem="0Ko-aY-NXZ" secondAttribute="leading" id="mLQ-zh-bbM"/>
+                                    <constraint firstItem="mf3-Mu-8eb" firstAttribute="top" secondItem="0Ko-aY-NXZ" secondAttribute="top" constant="122" id="rsf-c4-hDg"/>
+                                    <constraint firstItem="mf3-Mu-8eb" firstAttribute="leading" secondItem="0Ko-aY-NXZ" secondAttribute="leading" id="ubd-lF-tbW"/>
+                                    <constraint firstItem="o3B-dv-ReE" firstAttribute="leading" secondItem="0Ko-aY-NXZ" secondAttribute="leading" id="x4b-BA-mtM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.8597065806388855" green="0.96053999662399292" blue="0.99840325117111206" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Ko-aY-NXZ" firstAttribute="leading" secondItem="WnL-t2-6wa" secondAttribute="leading" id="EGq-4N-DN0"/>
+                            <constraint firstAttribute="trailing" secondItem="0Ko-aY-NXZ" secondAttribute="trailing" id="SYK-bd-oy3"/>
+                            <constraint firstAttribute="bottom" secondItem="0Ko-aY-NXZ" secondAttribute="bottom" id="oHc-f0-hwj"/>
+                            <constraint firstItem="0Ko-aY-NXZ" firstAttribute="top" secondItem="WnL-t2-6wa" secondAttribute="top" id="yOZ-W5-87h"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="background1" destination="BjS-lu-3TJ" id="tEC-uL-00q"/>
+                        <outlet property="background2" destination="Tp3-Tp-v6Q" id="8G5-8N-kIe"/>
+                        <outlet property="background3" destination="o3B-dv-ReE" id="fLQ-MX-PQn"/>
+                        <outlet property="background4" destination="mf3-Mu-8eb" id="PZY-01-Dpo"/>
+                        <outlet property="contentView" destination="0Ko-aY-NXZ" id="J9y-NA-GTy"/>
+                        <outlet property="drone" destination="iGq-yB-tAy" id="zlR-TF-Wrv"/>
+                        <outlet property="opLabel" destination="tpe-ci-pvv" id="Ihy-VO-1Iz"/>
+                        <outlet property="shadow" destination="CFX-Bz-hAG" id="sda-Vt-pJP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WUC-lk-veC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-878.69822485207101" y="134.375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chap1back1" width="508" height="43.5"/>
+        <image name="chap1back2" width="508" height="62.5"/>
+        <image name="chap1back3" width="508" height="97.5"/>
+        <image name="chap1back4" width="508" height="94"/>
+        <image name="chap1shadow" width="303" height="25"/>
+        <image name="mambo_single" width="285" height="163"/>
+    </resources>
+</document>

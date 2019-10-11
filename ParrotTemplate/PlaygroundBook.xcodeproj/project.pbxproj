@@ -7,9 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
+		0299D7472350127100402502 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7332350127000402502 /* MainViewController.swift */; };
+		0299D7482350127100402502 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7342350127000402502 /* Api.swift */; };
+		0299D7492350127100402502 /* Grabber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7352350127000402502 /* Grabber.swift */; };
+		0299D74A2350127100402502 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7362350127000402502 /* DataStorage.swift */; };
+		0299D74B2350127100402502 /* TurnDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7372350127000402502 /* TurnDirection.swift */; };
+		0299D74C2350127100402502 /* Assessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7382350127000402502 /* Assessor.swift */; };
+		0299D74D2350127100402502 /* DroneBle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7392350127000402502 /* DroneBle.swift */; };
+		0299D74E2350127100402502 /* Drone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73A2350127000402502 /* Drone.swift */; };
+		0299D74F2350127100402502 /* MoveDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73B2350127000402502 /* MoveDirection.swift */; };
+		0299D7502350127100402502 /* Canon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73C2350127000402502 /* Canon.swift */; };
+		0299D7512350127100402502 /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73D2350127000402502 /* MotionTracker.swift */; };
+		0299D7522350127100402502 /* DroneViewProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73E2350127000402502 /* DroneViewProxy.swift */; };
+		0299D7532350127100402502 /* MotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D73F2350127000402502 /* MotionDetector.swift */; };
+		0299D7542350127100402502 /* FlipDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7402350127100402502 /* FlipDirection.swift */; };
+		0299D7552350127100402502 /* Lights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7412350127100402502 /* Lights.swift */; };
+		0299D7562350127100402502 /* DroneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7422350127100402502 /* DroneController.swift */; };
+		0299D7572350127100402502 /* FlyingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7432350127100402502 /* FlyingState.swift */; };
+		0299D7582350127100402502 /* DroneProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7442350127100402502 /* DroneProtocol.swift */; };
+		0299D7592350127100402502 /* MoveParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7452350127100402502 /* MoveParams.swift */; };
+		0299D75A2350127100402502 /* DroneViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7462350127100402502 /* DroneViewControllerBase.swift */; };
+		0299D75F2350B8F700402502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0299D75B2350B6BA00402502 /* Main.storyboard */; };
+		0299D7602350B90000402502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299D75E2350B77B00402502 /* Assets.xcassets */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
-		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
 		5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */; };
 		5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */; };
 		5EA2E3D42056F36800416A35 /* libBook_Sources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF2F9AB2054BBF300191409 /* libBook_Sources.a */; };
@@ -17,7 +37,6 @@
 		5EA2E3DB2056F8D100416A35 /* PlaygroundSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D72056F88700416A35 /* PlaygroundSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EBEC2F0205B399300975D3F /* LiveViewHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBEC2EF205B396500975D3F /* LiveViewHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
-		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
 		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 /* End PBXBuildFile section */
@@ -92,15 +111,35 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0299D7332350127000402502 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0299D7342350127000402502 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		0299D7352350127000402502 /* Grabber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grabber.swift; sourceTree = "<group>"; };
+		0299D7362350127000402502 /* DataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		0299D7372350127000402502 /* TurnDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnDirection.swift; sourceTree = "<group>"; };
+		0299D7382350127000402502 /* Assessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assessor.swift; sourceTree = "<group>"; };
+		0299D7392350127000402502 /* DroneBle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneBle.swift; sourceTree = "<group>"; };
+		0299D73A2350127000402502 /* Drone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drone.swift; sourceTree = "<group>"; };
+		0299D73B2350127000402502 /* MoveDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveDirection.swift; sourceTree = "<group>"; };
+		0299D73C2350127000402502 /* Canon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Canon.swift; sourceTree = "<group>"; };
+		0299D73D2350127000402502 /* MotionTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		0299D73E2350127000402502 /* DroneViewProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneViewProxy.swift; sourceTree = "<group>"; };
+		0299D73F2350127000402502 /* MotionDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionDetector.swift; sourceTree = "<group>"; };
+		0299D7402350127100402502 /* FlipDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlipDirection.swift; sourceTree = "<group>"; };
+		0299D7412350127100402502 /* Lights.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lights.swift; sourceTree = "<group>"; };
+		0299D7422350127100402502 /* DroneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneController.swift; sourceTree = "<group>"; };
+		0299D7432350127100402502 /* FlyingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyingState.swift; sourceTree = "<group>"; };
+		0299D7442350127100402502 /* DroneProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneProtocol.swift; sourceTree = "<group>"; };
+		0299D7452350127100402502 /* MoveParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveParams.swift; sourceTree = "<group>"; };
+		0299D7462350127100402502 /* DroneViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneViewControllerBase.swift; sourceTree = "<group>"; };
+		0299D75B2350B6BA00402502 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0299D75E2350B77B00402502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* Parrot Template.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parrot Template.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
-		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
 		5E0E37522065981C008FA4BE /* BuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E0E37542065A065008FA4BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E1004BE208E7F6E00BCFE70 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E2A7AE6204F630600F4E17A /* BaseBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseBuildSettings.xcconfig; sourceTree = "<group>"; };
-		5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewSupport.swift; sourceTree = "<group>"; };
 		5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EA2E3C92056F35B00416A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveViewTestAppLaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -111,7 +150,6 @@
 		5EF2F97D2054B6E400191409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ManifestPlist.strings; sourceTree = "<group>"; };
 		5EF2F9A52054BBB200191409 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -243,8 +281,9 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				0299D75E2350B77B00402502 /* Assets.xcassets */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
-				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
+				0299D75B2350B6BA00402502 /* Main.storyboard */,
 			);
 			path = PrivateResources;
 			sourceTree = "<group>";
@@ -252,8 +291,26 @@
 		5EF2F9A22054BB3E00191409 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
-				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+				0299D7342350127000402502 /* Api.swift */,
+				0299D7382350127000402502 /* Assessor.swift */,
+				0299D73C2350127000402502 /* Canon.swift */,
+				0299D7362350127000402502 /* DataStorage.swift */,
+				0299D73A2350127000402502 /* Drone.swift */,
+				0299D7392350127000402502 /* DroneBle.swift */,
+				0299D7422350127100402502 /* DroneController.swift */,
+				0299D7442350127100402502 /* DroneProtocol.swift */,
+				0299D7462350127100402502 /* DroneViewControllerBase.swift */,
+				0299D73E2350127000402502 /* DroneViewProxy.swift */,
+				0299D7402350127100402502 /* FlipDirection.swift */,
+				0299D7432350127100402502 /* FlyingState.swift */,
+				0299D7352350127000402502 /* Grabber.swift */,
+				0299D7412350127100402502 /* Lights.swift */,
+				0299D7332350127000402502 /* MainViewController.swift */,
+				0299D73F2350127000402502 /* MotionDetector.swift */,
+				0299D73D2350127000402502 /* MotionTracker.swift */,
+				0299D73B2350127000402502 /* MoveDirection.swift */,
+				0299D7452350127100402502 /* MoveParams.swift */,
+				0299D7372350127000402502 /* TurnDirection.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -371,8 +428,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0299D7602350B90000402502 /* Assets.xcassets in Resources */,
+				0299D75F2350B8F700402502 /* Main.storyboard in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
-				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,7 +459,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"";
+			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -418,8 +476,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
-				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				0299D7562350127100402502 /* DroneController.swift in Sources */,
+				0299D74D2350127100402502 /* DroneBle.swift in Sources */,
+				0299D7552350127100402502 /* Lights.swift in Sources */,
+				0299D7472350127100402502 /* MainViewController.swift in Sources */,
+				0299D7522350127100402502 /* DroneViewProxy.swift in Sources */,
+				0299D7492350127100402502 /* Grabber.swift in Sources */,
+				0299D7532350127100402502 /* MotionDetector.swift in Sources */,
+				0299D7512350127100402502 /* MotionTracker.swift in Sources */,
+				0299D7572350127100402502 /* FlyingState.swift in Sources */,
+				0299D74A2350127100402502 /* DataStorage.swift in Sources */,
+				0299D74C2350127100402502 /* Assessor.swift in Sources */,
+				0299D7582350127100402502 /* DroneProtocol.swift in Sources */,
+				0299D74E2350127100402502 /* Drone.swift in Sources */,
+				0299D75A2350127100402502 /* DroneViewControllerBase.swift in Sources */,
+				0299D7542350127100402502 /* FlipDirection.swift in Sources */,
+				0299D74B2350127100402502 /* TurnDirection.swift in Sources */,
+				0299D7482350127100402502 /* Api.swift in Sources */,
+				0299D7502350127100402502 /* Canon.swift in Sources */,
+				0299D7592350127100402502 /* MoveParams.swift in Sources */,
+				0299D74F2350127100402502 /* MoveDirection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,14 +520,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E086DCD2051DDB8004D8D25 /* Base */,
-			);
-			name = LiveView.storyboard;
-			sourceTree = "<group>";
-		};
 		5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -618,7 +686,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 36TVVSMFUD;
 				GCC_DYNAMIC_NO_PIC = NO;
 				INFOPLIST_FILE = LiveViewTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -626,7 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parroteducation.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
@@ -642,14 +710,14 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 36TVVSMFUD;
 				INFOPLIST_FILE = LiveViewTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.parroteducation.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"\"$(OTHER_FRAMEWORKS_DIR)\"",
@@ -669,6 +737,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -681,6 +750,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
