@@ -29,6 +29,7 @@
 		0299D75A2350127100402502 /* DroneViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0299D7462350127100402502 /* DroneViewControllerBase.swift */; };
 		0299D75F2350B8F700402502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0299D75B2350B6BA00402502 /* Main.storyboard */; };
 		0299D7602350B90000402502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0299D75E2350B77B00402502 /* Assets.xcassets */; };
+		0299D7622350C95D00402502 /* BookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0299D7612350C95D00402502 /* BookIcon.png */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */; };
 		5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */; };
@@ -133,6 +134,7 @@
 		0299D7462350127100402502 /* DroneViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DroneViewControllerBase.swift; sourceTree = "<group>"; };
 		0299D75B2350B6BA00402502 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0299D75E2350B77B00402502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0299D7612350C95D00402502 /* BookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookIcon.png; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* Parrot Template.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parrot Template.playgroundbook"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCF2051DF0F004D8D25 /* Manifest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Manifest.plist; sourceTree = "<group>"; };
@@ -281,6 +283,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				0299D7612350C95D00402502 /* BookIcon.png */,
 				0299D75E2350B77B00402502 /* Assets.xcassets */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				0299D75B2350B6BA00402502 /* Main.storyboard */,
@@ -431,6 +434,7 @@
 				0299D7602350B90000402502 /* Assets.xcassets in Resources */,
 				0299D75F2350B8F700402502 /* Main.storyboard in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
+				0299D7622350C95D00402502 /* BookIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
