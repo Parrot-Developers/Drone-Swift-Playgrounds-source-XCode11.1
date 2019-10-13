@@ -3,10 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>ChapterOneName</string>
+	<string>Name</string>
 	<key>Pages</key>
 	<array>
-		<string>PlaygroundPage.playgroundpage</string>
+		<string>1.Introduction.cutscenepage</string>
+		<string>2.TakeoffLand.playgroundpage</string>
+		<string>3.UpDown.playgroundpage</string>
+		<string>4.LeftRight.playgroundpage</string>
+		<string>5.Challenge.playgroundpage</string>
+		<string>6.ForwardBackward.playgroundpage</string>
+		<string>7.Rotation.playgroundpage</string>
+		<string>8.Challenge.playgroundpage</string>
+		<string>9.SpeedTimeDistance.playgroundpage</string>
+		<string>10.Flips.playgroundpage</string>
+		<string>11.Pilot.cutscenepage</string>
 	</array>
 </dict>
 </plist>

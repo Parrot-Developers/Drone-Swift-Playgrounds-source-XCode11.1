@@ -16,9 +16,13 @@
 	<string>$(SWIFT_VERSION)</string>
 	<key>Name</key>
 	<string>PlaygroundBookName</string>
+	<key>ImageReference</key>
+	<string>BookIcon.png</string>
 	<key>Chapters</key>
 	<array>
 		<string>Chapter1.playgroundchapter</string>
+		<string>Chapter2.playgroundchapter</string>
+		<string>Chapter3.playgroundchapter</string>
 	</array>
 </dict>
 </plist>

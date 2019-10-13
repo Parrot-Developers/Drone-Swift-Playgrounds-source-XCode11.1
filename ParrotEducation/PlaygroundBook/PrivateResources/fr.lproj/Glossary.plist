@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Swift</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Le langage de programmation d’Apple, servant à créer des apps pour iPhone, iPad, Mac, Apple Watch et Apple TV. </string>
+				<key>Title</key>
+				<string>Swift</string>
+			</dict>
+		</dict>
+		<key>argument</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Une valeur d’entrée transmise à une fonction pour personnaliser son comportement. Par exemple, dans l’appel à la fonction `wait(3)`, `3` est un argument qui indique de combien va être la pause dans le programme.</string>
+				<key>Title</key>
+				<string>argument</string>
+			</dict>
+		</dict>
+		<key>command</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Du code qui indique à une application d’effectuer une action spécifique. 
+</string>
+				<key>Title</key>
+				<string>commande</string>
+			</dict>
+		</dict>
+		<key>conditional</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Du code qui s’exécute uniquement lorsque certaines conditions sont satisfaites. Par exemple, les instructions `if` et les boucles `while` contiennent du code conditionnel qui s’exécute uniquement lorsqu’une condition est `true`. </string>
+				<key>Title</key>
+				<string>conditionnel</string>
+			</dict>
+		</dict>
+		<key>for loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un bloc de code répété qui s’exécute un certain nombre de fois. </string>
+				<key>Title</key>
+				<string>boucle for</string>
+			</dict>
+		</dict>
+		<key>function</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un ensemble de commandes désigné qui peut être exécuté à tout moment en cas de besoin.</string>
+				<key>Title</key>
+				<string>fonction</string>
+			</dict>
+		</dict>
+		<key>if block</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Le premier bloc de code est une instruction `if`. Le bloc `if` s’exécute si la condition de l’instruction `if` est `true`. </string>
+				<key>Title</key>
+				<string>bloc if</string>
+			</dict>
+		</dict>
+		<key>if statement</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Une structure de code permettant d’exécuter du code en fonction de la valeur d’une ou de plusieurs conditions. Le premier bloc de code dans une instruction `if` est le bloc `if`. Une instruction `if` peut également contenir d’autres blocs fournissant des vérifications supplémentaires, comme un bloc `else` et `else if`.</string>
+				<key>Title</key>
+				<string>instruction if</string>
+			</dict>
+		</dict>
+		<key>loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un bloc de code qui se répète un certain nombre de fois (comme une boucle `for`) ou jusqu’à ce qu’une condition soit satisfaite (par exemple, une boucle `while`).</string>
+				<key>Title</key>
+				<string>boucle</string>
+			</dict>
+		</dict>
+		<key>parameter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Le nom d’une valeur d’entrée pour une fonction, utilisée dans la définition de cette dernière. Par exemple, dans `move(direction: MoveDirection)`, `direction` est un paramètre qui prend une valeur de type MoveDirection.</string>
+				<key>Title</key>
+				<string>paramètre</string>
+			</dict>
+		</dict>
+		<key>variable</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un conteneur désigné qui contient une valeur pouvant être modifiée. </string>
+				<key>Title</key>
+				<string>variable</string>
+			</dict>
+		</dict>
+		<key>while loop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un bloc de code qui s’exécute tant qu’une condition indiquée est `true`. Lorsqu’une condition devient `false`, la boucle ne s’exécute plus. </string>
+				<key>Title</key>
+				<string>boucle while</string>
+			</dict>
+		</dict>
+		<key>drone</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Un drone (de l&apos;anglais) ou sans-pilote désigne un aéronef sans humain à bord (mais le plus souvent télécommandé).</string>
+				<key>Title</key>
+				<string>drone</string>
+			</dict>
+		</dict>
+		<key>gaz</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Dans le monde des drones, cela représente la vitesse verticale du drone</string>
+				<key>Title</key>
+				<string>gaz</string>
+			</dict>
+		</dict>
+		<key>roll</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Dans le monde des drones, cela représente l&apos;orientation gauche-droite du drone</string>
+				<key>Title</key>
+				<string>roulis</string>
+			</dict>
+		</dict>
+		<key>pitch</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Dans le monde des drones, cela représente la l&apos;orientation avant-arrière du drone</string>
+				<key>Title</key>
+				<string>tangage</string>
+			</dict>
+		</dict>
+		<key>yaw</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string> Dans le monde des drones, cela représente la vitesse angulaire du drone</string>
+				<key>Title</key>
+				<string>lacet</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

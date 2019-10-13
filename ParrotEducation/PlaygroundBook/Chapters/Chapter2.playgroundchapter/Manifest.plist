@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Name</string>
+	<key>Pages</key>
+	<array>
+		<string>0.Introduction.cutscenepage</string>
+		<string>1.ComplexMove.playgroundpage</string>
+		<string>2.Challenge.playgroundpage</string>
+		<string>3.ConditionalMove.playgroundpage</string>
+		<string>5.Grabber.playgroundpage</string>
+		<string>6.Camera.playgroundpage</string>
+		<string>7.Challenge.playgroundpage</string>
+	</array>
+</dict>
+</plist>
